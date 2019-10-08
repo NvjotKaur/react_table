@@ -60,7 +60,6 @@ render(){
                     <td>{user.email}</td>
                     <td><input type="text" value={user.name}></input></td>
                     <td><input type="text" value={user.username}></input></td>
-                    <td><input type="text" value={user.email}></input></td>
                 </tr>
               )}
           </table>
