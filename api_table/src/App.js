@@ -4,6 +4,7 @@ import './App.css';
 
 
 
+
 class App extends Component {
   constructor(){
     super()
@@ -58,6 +59,8 @@ render(){
                     <td>{user.name}</td>
                     <td>{user.username}</td>
                     <td>{user.email}</td>
+                    <td><input type="text" value={user.name}></input></td>
+                    <td><input type="text" value={user.username}></input></td>
                     <td><input type="text" value={user.name}></input></td>
                     <td><input type="text" value={user.username}></input></td>
                 </tr>
