@@ -62,7 +62,7 @@ render(){
                     <td><input type="text" value={user.name}></input></td>
                     <td><input type="text" value={user.username}></input></td>
                     <td><input type="text" value={user.name}></input></td>
-                    <td><input type="text" value={user.username}></input></td>
+                    <td><input   type="text" value={user.username}></input></td>
                 </tr>
               )}
           </table>
